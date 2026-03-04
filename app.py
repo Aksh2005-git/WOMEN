@@ -316,5 +316,6 @@ def admin_dashboard():
         "period_logs": PeriodLog.query.count(),
         "skill_recommendations": SkillLog.query.count()
 
-    })           if __name__ == "__main__":
+    })          
+ if __name__ == "__main__":
     app.run()    
