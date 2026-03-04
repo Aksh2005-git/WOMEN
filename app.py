@@ -317,5 +317,5 @@ def admin_dashboard():
         "skill_recommendations": SkillLog.query.count()
 
     })          
- if __name__ == "__main__":
-    app.run()    
+if __name__ == "__main__":
+    app.run()   
