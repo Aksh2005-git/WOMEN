@@ -315,4 +315,6 @@ def admin_dashboard():
         "high_risk_cases": HealthLog.query.filter(HealthLog.risk_score >= 0.75).count(),
         "period_logs": PeriodLog.query.count(),
         "skill_recommendations": SkillLog.query.count()
-    })
+
+    })           if __name__ == "__main__":
+    app.run()    
